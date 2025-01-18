@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page-style.css">
+    <title>Products</title>
+</head>
+<body  >
+    <div class="form-container">
+       
+        <form>
+            <h2 >Enter your details</h2>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+            </div>
+            <div class="form-group-gender">
+                <label style="display: block;margin: 0px 0px 5px 0px ;">Gender</label>
+                <div class="gender-label">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male" >Male</label>
+                </div>
+                <div class="gender-label">
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone-number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your E-mail" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+            <hr>
+            <div class="return">
+                <button type="submit" ><a href="#">Return to home</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
